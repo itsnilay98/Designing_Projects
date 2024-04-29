@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
+}
+
+#home {
+    background-image: url(./images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+
+#home-text {
+    padding-top: 20rem;
+}
+
+#schedule-img {
+    background: url(/images/schedule1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+}
+
+h1 {
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 2vw;
+}
